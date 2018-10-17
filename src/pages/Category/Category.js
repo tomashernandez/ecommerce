@@ -35,6 +35,8 @@ export default class Category extends Component {
     }
   }
 
+  componentWillUnmount() {}
+
   render() {
     return (
       <React.Fragment>
